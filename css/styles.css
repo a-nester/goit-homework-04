@@ -431,7 +431,9 @@ transition-property: color;
 }
 
 .footer .container {
-    display: inline-flex;
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
     gap: 120px;
 }
 .footer-logo {
@@ -477,4 +479,12 @@ transition-property: color;
 
 .footer .soc-block-list {
     gap: 16px;
+}
+
+.footer .social-box:hover {
+    background-color: #31d0aa;
+}
+
+.footer .social-box:focus {
+    background-color: #31d0aa;
 }
