@@ -103,6 +103,10 @@ img {
     /* margin-right: 76px; */ 
 }
 
+.nav-list-studio.active {
+    color: #404bbf;
+}
+
 .nav-list a {
     color: #2e2f42;
     font-family: Roboto;
@@ -140,9 +144,6 @@ img {
     position: absolute;
     bottom: -1px;
 }
-/* .nav-list-studio:active {
-    text-decoration: underline;
-} */
 
 .header-contacts { 
     font-style: normal;
