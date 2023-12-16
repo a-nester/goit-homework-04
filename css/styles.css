@@ -326,6 +326,9 @@ transition-property: color;
     background-color: #4D5AE5;
     border: 1px solid #4D5AE5;
     border-radius: 50%;
+    transition-property: background-color, border;
+        transition-duration: 250ms, 250ms;
+        transition-timing-function: ease-in-out, ease-in-out;
 }
 
 .social-box:hover {
