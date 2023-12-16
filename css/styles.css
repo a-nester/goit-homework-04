@@ -109,7 +109,7 @@ img {
     letter-spacing: 0.02em;
     transition-property: color;
         transition-duration: 250ms;
-        transition-timing-function: ease-in-out;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list a:hover {
@@ -156,7 +156,7 @@ img {
 color: #434455;
 transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -215,7 +215,7 @@ transition-property: color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition-property: background-color;
         transition-duration: 250ms;
-        transition-timing-function: ease-in-out;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }    
 
@@ -328,7 +328,7 @@ transition-property: color;
     border-radius: 50%;
     transition-property: background-color, border;
         transition-duration: 250ms, 250ms;
-        transition-timing-function: ease-in-out, ease-in-out;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)t, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-box:hover {
@@ -362,6 +362,10 @@ transition-property: color;
     display: block;
     width: calc((100% - 48px) / 3);
 }
+
+.portfolio-list-item:hover {
+    box-shadow: 2px 2px 3px 1px rgba(46, 47, 66, 1);
+}
 .portfolio-list-wrapper {
     position: relative;
     overflow: hidden;
@@ -379,7 +383,7 @@ transition-property: color;
     transform: translateY(100%);
     transition-property: transform;
     transition-duration: 250ms;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color: #F4F4FD;
         /* font-size: 16px;
         line-height: 1.5;
