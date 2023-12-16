@@ -434,11 +434,11 @@ transition-property: color;
 .footer .container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
-    gap: 120px;
+    /* gap: 120px; */
 }
 .footer-logo {
     display: block;
+    margin-right: 120px;
 }
 
 .footer .logo {
